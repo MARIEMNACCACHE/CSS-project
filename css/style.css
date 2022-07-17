@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+}
+.nav-bar span, .dropbtn, p.options{
+    margin-left: 5px;
+    color: white;
+}
+
+.nav-bar span, .dropbtn, p.options{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 1.7em;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: rgb(242, 233, 233);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .about-content{
+    background-color: rgba(59, 18, 129, 0);
+    padding: 60px;
+}
+
+.about-content h1, .contact-content h1{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 2em;
+    color: white;
+}
+
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(11, 10, 10, 0.695);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a{
+      font-family : arial;
+  }
+
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+    height: 65px;
+    align-items: center;
+  }
+
+nav{
+    background-color: rgb(73, 255, 88);
+}
+
+.options>a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 8, 8);
+}
+#about-section{
+    background-image: url("../img/painting.jpg");
+    background-position: center;
+}
+
+.about-content{
+    background-color: rgba(0, 0, 0, 0.396);
+    color:rgb(242, 233, 233)
+}
+.contact-content{
+    width: 30%;
+    margin: auto;
+    padding: 40px;
+    background-color: rgb(139, 255, 86);
+    border-radius: 20px;
+}
+
+.contact-content input, .contact-content textarea{
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 3px;
+}
